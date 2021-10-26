@@ -82,7 +82,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/dzhunkoff/my_unique_ptr/compressed_pair.h">
+			<Option target="my_unique_ptr"/>
+		</Unit>
+		<Unit filename="/home/dzhunkoff/my_unique_ptr/deleters.h">
+			<Option target="my_unique_ptr"/>
+		</Unit>
 		<Unit filename="/home/dzhunkoff/my_unique_ptr/main.cpp">
+			<Option target="my_unique_ptr"/>
+		</Unit>
+		<Unit filename="/home/dzhunkoff/my_unique_ptr/my_int.h">
+			<Option target="my_unique_ptr"/>
+		</Unit>
+		<Unit filename="/home/dzhunkoff/my_unique_ptr/unique.h">
 			<Option target="my_unique_ptr"/>
 		</Unit>
 		<Unit filename="/home/dzhunkoff/my_unique_ptr/CMakeLists.txt">

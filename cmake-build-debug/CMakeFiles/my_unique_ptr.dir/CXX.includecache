@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dzhunkoff/my_unique_ptr/compressed_pair.h
+type_traits
+-
+cstddef
+-
+utility
+-
+
+/home/dzhunkoff/my_unique_ptr/deleters.h
+cassert
+-
+type_traits
+-
+
+/home/dzhunkoff/my_unique_ptr/main.cpp
+iostream
+-
+unique.h
+/home/dzhunkoff/my_unique_ptr/unique.h
+deleters.h
+/home/dzhunkoff/my_unique_ptr/deleters.h
+my_int.h
+/home/dzhunkoff/my_unique_ptr/my_int.h
+tuple
+-
+
+/home/dzhunkoff/my_unique_ptr/my_int.h
+
+/home/dzhunkoff/my_unique_ptr/unique.h
+compressed_pair.h
+/home/dzhunkoff/my_unique_ptr/compressed_pair.h
+cstddef
+-
+memory
+-
+

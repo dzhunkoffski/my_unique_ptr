@@ -3,4 +3,4 @@ project(my_unique_ptr)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(my_unique_ptr main.cpp)
+add_executable(my_unique_ptr main.cpp compressed_pair.h unique.h deleters.h my_int.h)
